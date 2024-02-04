@@ -1,0 +1,27 @@
+body{
+    background-color: pink
+}
+
+.box{
+    width: 800px;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.box{ 
+align-self: center;
+    text-align: center;
+p1{text-align: center;
+    color: black;}
+ol{
+    text-align: center;
+    color: black;
+}
+}
+
+h2{
+    font-size: small;
+    color: white
+}
