@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Roboto&display=swap');
+
+
 #content {
     max-width: 1600px;
     margin: auto 0;
 }
 
 nav a {
+    padding: 35px;
     text-align: center;
     color: darkblue;
     text-decoration: none;
@@ -22,6 +26,8 @@ main section{
     background-color: wheat;
 }
 body{
+    margin: 0;
+    padding: 0;
     background-color: wheat;
 }
 header{
@@ -32,11 +38,21 @@ nav a:hover{
     color: black;
 }
 .book {
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 15px 30px;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 18px;
     background-color: wheat;
     color: blue;
     text-decoration: none;
 }
 .join {
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 15px 30px;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 18px;
     background-color: burlywood;
     color: saddlebrown;
     text-decoration: none;
@@ -46,12 +62,22 @@ nav a:hover{
     color: chocolate;
 }
 .join:hover {
-    background-color: brown;
+    background-color: slategray;
 }
 .msg {
+    padding: 35px;
+    line-height: 1.5em;
     background-color: burlywood;
 }
+.msg p {
+    padding-bottom: 15px;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: .8em;
+}
 footer {
+    margin-top: 200px;
+    padding: 25px 50px;
+    padding-top: 15px;
     background-color: slategray;
     color: brown;
 }
@@ -71,6 +97,9 @@ footer a:hover{
 }
 
 .home-title{
+    margin-top: 10px;
+    font-family: Cinzel;;
+    font-size: 2em;
     background-color: burlywood;
     color: saddlebrown;
 }
@@ -80,6 +109,7 @@ color: saddlebrown;
 background-color: burlywood;
 }
 h2{
+    margin: 0;
     color: saddlebrown;
     background-color: burlywood;
 }
@@ -98,5 +128,27 @@ width: 100%;
     width: 80px;
 }
 .icon {
+    padding-top: 10px;
     width: 80px;
+}
+#logo-link {
+    padding-top: 5px;
+}
+.social img {
+    padding-top: 15px;
+}
+.rivers-card {
+    margin: 200px 0;
+}
+.camping-card {
+    margin: 200px 0;
+}
+.rapids-card{
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
 }

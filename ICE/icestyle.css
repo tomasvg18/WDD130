@@ -1,0 +1,10 @@
+body {
+margin: auto 0;
+}
+main {
+    background-color: grey;
+}
+#hero-img {
+    margin: auto 0;
+    text-align: center;
+}
