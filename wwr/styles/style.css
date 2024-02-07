@@ -58,8 +58,8 @@ nav a:hover{
     text-decoration: none;
 }
 .book:hover {
-    background-color: burlywood;
-    color: chocolate;
+    background-color: slategray;
+    color: saddlebrown;
 }
 .join:hover {
     background-color: slategray;
@@ -151,4 +151,7 @@ width: 100%;
 }
 main section img {
     box-sizing: border-box;
+}
+.mountains {
+    margin: 100px;
 }
